@@ -22,10 +22,10 @@ var mixins = {
 		}
 	},
 	android: {
-		appMeta: 'google-play-app',
+		appMeta: 'cafebazaar-app',
 		iconRels: ['android-touch-icon', 'apple-touch-icon-precomposed', 'apple-touch-icon'],
 		getStoreLink: function () {
-			return 'http://play.google.com/store/apps/details?id=' + this.appId;
+			return 'https://cafebazaar.ir/app/' + this.appId;
 		}
 	},
 	windows: {
@@ -46,7 +46,7 @@ var SmartBanner = function (options) {
 		button: 'دانلود کنید', // Text for the install button
 		store: {
 			ios: 'در Apple Store',
-     	android: 'در Google Play',
+     	android: 'در کافه‌بازار',
      	windows: 'در Windows store'
 		},
 		price: {
