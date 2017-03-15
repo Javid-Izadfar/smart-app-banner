@@ -43,16 +43,16 @@ var SmartBanner = function (options) {
 		daysHidden: 15,
 		daysReminder: 90,
 		appStoreLanguage: userLang, // Language code for App Store
-		button: 'OPEN', // Text for the install button
+		button: 'دانلود کنید', // Text for the install button
 		store: {
-			ios: 'On the App Store',
-			android: 'In Google Play',
-			windows: 'In the Windows Store'
+			ios: 'در Apple Store',
+     	android: 'در Google Play',
+     	windows: 'در Windows store'
 		},
 		price: {
-			ios: 'FREE',
-			android: 'FREE',
-			windows: 'FREE'
+			ios: 'رایگان',
+			android: 'رایگان',
+			windows: 'رایگان'
 		},
 		theme: '', // put platform type ('ios', 'android', etc.) here to force single theme on all device
 		icon: '', // full path to icon image if not using website icon image
